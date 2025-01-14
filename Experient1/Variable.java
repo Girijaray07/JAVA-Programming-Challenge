@@ -7,6 +7,6 @@ public class Variable
 
         Variable T = new Variable();
         
-        System.out.println("Local Variable: " + num + "\nInstance Variable: " + T.number);
+        System.out.println("Local Variable: "+ num + "\nInstance Variable: "+ T.number);
     }
 }
