@@ -1,3 +1,5 @@
+package Experiment2;
+
 import java.util.Scanner;
 
 public class Employee
@@ -5,7 +7,7 @@ public class Employee
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
-        
+
         for (int i = 1; i <= 5; i++) {
             System.out.println("Enter details for Employee " + i + ":");
 
