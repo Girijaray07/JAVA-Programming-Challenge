@@ -20,5 +20,7 @@ public class SimpleInterest
         float finalAmount = amount+prinAmt;
 
         System.out.printf("Accrued Interest: %f \nFinal Amount: %f", amount, finalAmount);
+
+        input.close();
     }
 }
