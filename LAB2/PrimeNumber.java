@@ -46,5 +46,7 @@ public class PrimeNumber
         } else {
             System.out.println("Lower Limit is greater than Upper Limit");
         }
+
+        input.close();
     }
 }
