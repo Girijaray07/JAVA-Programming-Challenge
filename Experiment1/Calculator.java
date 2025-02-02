@@ -33,5 +33,7 @@ public class Calculator
         char opcode = input.next().charAt(0);
 
         System.out.printf("\nResult: %d", obj.calculate(a, b, opcode));
+
+        input.close();
     }
 }
