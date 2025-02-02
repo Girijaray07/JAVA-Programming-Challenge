@@ -16,5 +16,6 @@ public class AsciiPrint
         System.out.printf("Character '%c' -> %d\n", value, (int) value);
         System.out.printf("Number %d -> %d\n", num, (int) num);
 
+        input.close();
     }
 }
