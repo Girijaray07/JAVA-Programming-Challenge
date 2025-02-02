@@ -22,5 +22,7 @@ public class Input {
         System.out.print("Enter BOOLEAN Value: ");
         Boolean num3 = input.nextBoolean();
         System.out.println("Value: " + num3);
+
+        input.close();
     }
 }
