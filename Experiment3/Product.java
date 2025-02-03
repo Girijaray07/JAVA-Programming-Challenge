@@ -40,7 +40,7 @@ public class Product
         prod1.displayProduct();
         
         System.out.print("\nApplying 10% discount: ");
-        prod1.applyDiscount(10);
+        prod1.applyDiscount(12);
         
         prod1.displayProduct();
     }
