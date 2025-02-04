@@ -1,3 +1,4 @@
+package LAB3;
 import java.time.LocalTime;
 import java.util.Scanner;
 import java.util.ArrayList;
