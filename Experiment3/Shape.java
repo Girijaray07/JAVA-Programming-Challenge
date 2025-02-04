@@ -9,16 +9,16 @@ class Shape {
         this.dimension2 = dimension2;
     }
 
-    public double calculateArea() {
-        if (shapeType.equalsIgnoreCase("Rectangle")) {
+    public double calArea() {
+        if (shapeType == "Rectangle") {
             return dimension1 * dimension2;
-        } else if (shapeType.equalsIgnoreCase("Circle")) {
+        } else if (shapeType == "Circle") {
             return Math.PI * dimension1 * dimension1;
         }
         return 0;
     }
 
-    public double calculatePerimeter() {
+    public double calPerimeter() {
         if (shapeType.equalsIgnoreCase("Rectangle")) {
             return 2 * (dimension1 + dimension2); 
         } else if (shapeType.equalsIgnoreCase("Circle")) {
@@ -29,8 +29,8 @@ class Shape {
 
     public void displayDetails() {
         System.out.println("\nShape: " + shapeType);
-        System.out.println("Area: " + calculateArea());
-        System.out.println("Perimeter: " + calculatePerimeter());
+        System.out.println("Area: " + calArea());
+        System.out.println("Perimeter: " + calPerimeter());
     }
 
     public static void main(String[] args) {
