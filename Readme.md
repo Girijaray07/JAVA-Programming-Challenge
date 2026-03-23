@@ -1,0 +1,1 @@
+A repository for the JAVA Programming Challenge, featuring curated Java problems and solutions. Designed to help learners and developers enhance their skills, it covers fundamental concepts and encourages collaborative contributions. Contributions improvements are encouraged to make this an evolving resource for the Java programming community.
