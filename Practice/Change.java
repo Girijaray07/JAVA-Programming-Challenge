@@ -5,7 +5,5 @@ public class Change {
         String b = new String("Girija");
 
         System.out.println(a.equals(c));
-
-        String a
     }
 }
